@@ -1,0 +1,1199 @@
+
+
+
+
+<!-- Entrada de nomes de times e seus estados. -->
+
+
+<p>Digite o nome do Time 1: Digite o Estado do Time 1:</p>
+
+<form id="form1">
+    <div>
+        <textarea id="time1" rows="1" placeholder="Time 1" required></textarea>
+        <textarea id="estado1" rows="1" placeholder="Estado 1" required></textarea>
+        
+    </div>
+</form>
+
+<p>Digite o nome do Time 2: Digite o Estado do Time 2:</p>
+
+<form id="form2">
+    <div>
+        <textarea id="time2" rows="1" placeholder="Time 2" required></textarea>
+        <textarea id="estado2" rows="1" placeholder="Estado 2" required></textarea>
+        
+    </div>
+</form>
+
+<p>Digite o nome do Time 3: Digite o Estado do Time 3:</p>
+
+<form id="form3">
+    <div>
+        <textarea id="time3" rows="1" placeholder="Time 3" required></textarea>
+        <textarea id="estado3" rows="1" placeholder="Estado 3" required></textarea>
+        
+    </div>
+</form>
+
+
+<p>Digite o nome do Time 4: Digite o Estado do Time 4:</p>
+
+<form id="form4">
+    <div>
+        <textarea id="time4" rows="1" placeholder="Time 4" required></textarea>
+        <textarea id="estado4" rows="1" placeholder="Estado 4" required></textarea>
+        
+    </div>
+</form>
+
+<p>Digite o nome do Time 5: Digite o Estado do Time 5:</p>
+
+<form id="form5">
+    <div>
+        <textarea id="time5" rows="1" placeholder="Time 5" required></textarea>
+        <textarea id="estado5" rows="1" placeholder="Estado 5" required></textarea>
+        
+    </div>
+</form>
+
+<p>Digite o nome do Time 6: Digite o Estado do Time 6:</p>
+
+<form id="form6">
+    <div>
+        <textarea id="time6" rows="1" placeholder="Time 6" required></textarea>
+        <textarea id="estado6" rows="1" placeholder="Estado 6" required></textarea>
+        
+    </div>
+</form>
+
+
+ 
+ <!-- Exibição das tabelas de jogos -->
+ 
+  
+ 
+<p>
+  <strong> COMBINAÇÃO DE JOGOS DE TURNO </strong> 
+   </p>
+
+<input type="button" value="Exibir Combinação 1" onclick="comb1()" />
+
+<br>
+<br>
+
+<strong><p>RODADA 1:</p></strong>
+        
+   <table border="1">
+    <tr>
+        
+        <td></td>
+        <td><span id="Rt1"> Time 1</span></td>
+        <td>  VS.  </td>
+        <td><span id="Rt2"> Time 2</span></td>
+                
+    </tr>
+    <tr>
+        <td>Placar</td>
+        <td><span id="res11"></span></td>
+        <td></td>
+        <td><span id="res21" ></span></td>
+        
+    </tr>
+    <tr>
+        <td>Pontuação</td>
+        <td><strong><span id="pt11"></span></strong></td>
+        <td></td>
+        <td><strong><span id="pt21"></span></strong></td>
+        
+    </tr>
+</table>     
+
+        
+    <strong>
+        
+        <p id="Re1" >Estado 1</p>
+        </strong>
+        <p >_____________________</p>
+        
+<strong><p>RODADA 1:</p></strong>
+
+<table border="1">
+    <tr>
+        
+        <td></td>
+        <td><span id="Rt3"> Time 3</span></td>
+        <td>  VS.  </td>
+        <td><span id="Rt4"> Time 4</span></td>
+                
+    </tr>
+    <tr>
+        <td>Placar</td>
+        <td><span id="res31"></span></td>
+        <td></td>
+        <td><span id="res41" ></span></td>
+        
+    </tr>
+    <tr>
+        <td>Pontuação</td>
+        <td><strong><span id="pt31"></span></strong></td>
+        <td></td>
+        <td><strong><span id="pt41"></span></strong></td>
+        
+    </tr>
+</table>     
+        
+    <strong>
+        
+        <p id="Re3" >Estado 3</p>
+        </strong>
+        <p >_____________________</p>
+        
+
+
+<strong><p>RODADA 1:</p></strong>
+
+<table border="1">
+    <tr>
+        
+        <td></td>
+        <td><span id="Rt5"> Time 5</span></td>
+        <td>  VS.  </td>
+        <td><span id="Rt6"> Time 6</span></td>
+                
+    </tr>
+    <tr>
+        <td>Placar</td>
+        <td><span id="res51"></span></td>
+        <td></td>
+        <td><span id="res61" ></span></td>
+        
+    </tr>
+    <tr>
+        <td>Pontuação</td>
+        <td><strong><span id="pt51"></span></strong></td>
+        <td></td>
+        <td><strong><span id="pt61"></span></strong></td>
+        
+    </tr>
+</table>     
+        
+    <strong>
+        
+        <p id="Re5" >Estado 5</p>
+        </strong>
+        <p >_____________________</p>
+        
+
+
+
+
+
+<input type="button" value="Exibir Combinação 2" onclick="comb2()" />
+
+<br>
+<br>
+
+
+
+<strong><p>RODADA 2:</p></strong>
+
+<table border="1">
+    <tr>
+        
+        <td></td>
+        <td><span id="Rt22"> Time 2</span></td>
+        <td>  VS.  </td>
+        <td><span id="Rt44"> Time 4</span></td>
+                
+    </tr>
+    <tr>
+        <td>Placar</td>
+        <td><span id="res22"></span></td>
+        <td></td>
+        <td><span id="res42" ></span></td>
+        
+    </tr>
+    <tr>
+        <td>Pontuação</td>
+        <td><strong><span id="pt22"></span></strong></td>
+        <td></td>
+        <td><strong><span id="pt42"></span></strong></td>
+        
+    </tr>
+</table>     
+        
+    <strong>
+        
+        <p id="Re22" >Estado 2</p>
+        </strong>
+        <p >_____________________</p>
+        
+        
+<strong><p>RODADA 2:</p></strong>
+
+<table border="1">
+    <tr>
+        
+        <td></td>
+        <td><span id="Rt33"> Time 3</span></td>
+        <td>  VS.  </td>
+        <td><span id="Rt66"> Time 6</span></td>
+                
+    </tr>
+    <tr>
+        <td>Placar</td>
+        <td><span id="res32"></span></td>
+        <td></td>
+        <td><span id="res62" ></span></td>
+        
+    </tr>
+    <tr>
+        <td>Pontuação</td>
+        <td><strong><span id="pt32"></span></strong></td>
+        <td></td>
+        <td><strong><span id="pt62"></span></strong></td>
+        
+    </tr>
+</table>     
+        
+    <strong>
+        
+        <p id="Re33" >Estado 3</p>
+        </strong>
+        <p >_____________________</p>
+        
+
+
+
+
+
+
+
+<strong><p>RODADA 2:</p></strong>
+
+<table border="1">
+    <tr>
+        
+        <td></td>
+        <td><span id="Rt55"> Time 5</span></td>
+        <td>  VS.  </td>
+        <td><span id="Rt11"> Time 1</span></td>
+                
+    </tr>
+    <tr>
+        <td>Placar</td>
+        <td><span id="res52"></span></td>
+        <td></td>
+        <td><span id="res12" ></span></td>
+        
+    </tr>
+    <tr>
+        <td>Pontuação</td>
+        <td><strong><span id="pt52"></span></strong></td>
+        <td></td>
+        <td><strong><span id="pt12"></span></strong></td>
+        
+    </tr>
+</table>     
+        
+    <strong>
+        
+        <p id="Re55" >Estado 5</p>
+        </strong>
+        <p >_____________________</p>
+        
+
+
+
+<p>
+  <strong> COMBINAÇÃO DE JOGOS DE RETURNO </strong> 
+  </p>
+
+<input type="button" value="Exibir Combinação 1" onclick="comb3()" />
+
+<br>
+<br>
+
+<strong><p>RODADA 1:</p></strong>
+
+<table border="1">
+    <tr>
+        
+        <td></td>
+        <td><span id="Rt222"> Time 2</span></td>
+        <td>  VS.  </td>
+        <td><span id="Rt111"> Time 1</span></td>
+                
+    </tr>
+    <tr>
+        <td>Placar</td>
+        <td><span id="res23"></span></td>
+        <td></td>
+        <td><span id="res13" ></span></td>
+        
+    </tr>
+    <tr>
+        <td>Pontuação</td>
+        <td><strong><span id="pt23"></span></strong></td>
+        <td></td>
+        <td><strong><span id="pt13"></span></strong></td>
+        
+    </tr>
+</table>     
+        
+    <strong>
+        
+        <p id="Re222" >Estado 2</p>
+        </strong>
+        <p >_____________________</p>
+        
+        
+ <strong><p>RODADA 1:</p></strong>
+
+<table border="1">
+    <tr>
+        
+        <td></td>
+        <td><span id="Rt444"> Time 4</span></td>
+        <td>  VS.  </td>
+        <td><span id="Rt333"> Time 3</span></td>
+                
+    </tr>
+    <tr>
+        <td>Placar</td>
+        <td><span id="res43"></span></td>
+        <td></td>
+        <td><span id="res33" ></span></td>
+        
+    </tr>
+    <tr>
+        <td>Pontuação</td>
+        <td><strong><span id="pt43"></span></strong></td>
+        <td></td>
+        <td><strong><span id="pt33"></span></strong></td>
+        
+    </tr>
+</table>     
+        
+    <strong>
+        
+        <p id="Re444" >Estado 4</p>
+        </strong>
+        <p >_____________________</p>
+        
+
+<strong><p>RODADA 1:</p></strong>
+
+<table border="1">
+    <tr>
+        
+        <td></td>
+        <td><span id="Rt666"> Time 6</span></td>
+        <td>  VS.  </td>
+        <td><span id="Rt555"> Time 5</span></td>
+                
+    </tr>
+    <tr>
+        <td>Placar</td>
+        <td><span id="res63"></span></td>
+        <td></td>
+        <td><span id="res53" ></span></td>
+        
+    </tr>
+    <tr>
+        <td>Pontuação</td>
+        <td><strong><span id="pt63"></span></strong></td>
+        <td></td>
+        <td><strong><span id="pt53"></span></strong></td>
+        
+    </tr>
+</table>     
+        
+    <strong>
+        
+        <p id="Re666" >Estado 6</p>
+        </strong>
+        <p >_____________________</p>
+        
+
+
+<input type="button" value="Exibir Combinação 2" onclick="comb4()" />
+
+<br>
+<br>
+
+
+
+<strong><p>RODADA 2:</p></strong>
+
+<table border="1">
+    <tr>
+        
+        <td></td>
+        <td><span id="Rt4444"> Time 4</span></td>
+        <td>  VS.  </td>
+        <td><span id="Rt2222"> Time 2</span></td>
+                
+    </tr>
+    <tr>
+        <td>Placar</td>
+        <td><span id="res44"></span></td>
+        <td></td>
+        <td><span id="res24" ></span></td>
+        
+    </tr>
+    <tr>
+        <td>Pontuação</td>
+        <td><strong><span id="pt44"></span></strong></td>
+        <td></td>
+        <td><strong><span id="pt24"></span></strong></td>
+        
+    </tr>
+</table>     
+        
+    <strong>
+        
+        <p id="Re4444" >Estado 4</p>
+        </strong>
+        <p >_____________________</p>
+        
+       
+<strong><p>RODADA 2:</p></strong>
+
+<table border="1">
+    <tr>
+        
+        <td></td>
+        <td><span id="Rt6666"> Time 6</span></td>
+        <td>  VS.  </td>
+        <td><span id="Rt3333"> Time 3</span></td>
+                
+    </tr>
+    <tr>
+        <td>Placar</td>
+        <td><span id="res64"></span></td>
+        <td></td>
+        <td><span id="res34" ></span></td>
+        
+    </tr>
+    <tr>
+        <td>Pontuação</td>
+        <td><strong><span id="pt64"></span></strong></td>
+        <td></td>
+        <td><strong><span id="pt34"></span></strong></td>
+        
+    </tr>
+</table>     
+        
+    <strong>
+        
+        <p id="Re6666" >Estado 6</p>
+        </strong>
+        <p >_____________________</p>
+
+<strong><p>RODADA 2:</p></strong>
+
+<table border="1">
+    <tr>
+        
+        <td></td>
+        <td><span id="Rt1111"> Time 1</span></td>
+        <td>  VS.  </td>
+        <td><span id="Rt5555"> Time 5</span></td>
+                
+    </tr>
+    <tr>
+        <td>Placar</td>
+        <td><span id="res14"></span></td>
+        <td></td>
+        <td><span id="res54" ></span></td>
+        
+    </tr>
+    <tr>
+        <td>Pontuação</td>
+        <td><strong><span id="pt14"></span></strong></td>
+        <td></td>
+        <td><strong><span id="pt54"></span></strong></td>
+        
+    </tr>
+</table>     
+        
+    <strong>
+        
+        <p id="Re1111" >Estado 1</p>
+        </strong>
+        <p >_____________________</p>
+
+ 
+ <!-- Exibe botão para gerar resultados, carregando a função javascript -->
+
+
+<input type="button" value="Gerar Resultados" onclick="resul()" />
+
+ <!-- Exibe a tabela de pontação dos times -->
+
+
+<table border="1">
+    
+    
+    <tr>
+     
+     <td>Time</td>
+     <td>Pontuação</td>
+                   
+    </tr>
+    
+    
+    <tr>
+     
+     <td><span id="tab1"></span></td>
+     <td><span id="ptab1"></span></td>
+                   
+    </tr>
+    
+    <tr>
+     
+     <td><span id="tab2"></span></td>
+     <td><span id="ptab2"></span></td>
+                   
+    </tr>
+    
+    <tr>
+     
+     <td><span id="tab3"></span></td>
+     <td><span id="ptab3"></span></td>
+                                      
+    </tr>
+    
+    <tr>
+     
+     <td><span id="tab4"></span></td>
+     <td><span id="ptab4"></span></td>
+                                      
+    </tr>
+    
+    <tr>
+     
+     <td><span id="tab5"></span></td>
+     <td><span id="ptab5"></span></td>
+                                      
+    </tr>
+    
+    
+    <tr>
+     
+     <td><span id="tab6"></span></td>
+     <td><span id="ptab6"></span></td>
+                                      
+    </tr>
+    
+    
+</table>     
+
+
+
+<p >_____________________</p>
+
+
+
+
+<script>
+
+// Define variáveis times e estados
+
+
+function comb1() {
+   
+    var t1 = document.getElementById('time1').value;
+    var e1 = document.getElementById('estado1').value;
+		var t2 = document.getElementById('time2').value;
+		var e2 = document.getElementById('estado2').value;
+		var t3 = document.getElementById('time3').value;
+		var e3 = document.getElementById('estado3').value;
+		var t4 = document.getElementById('time4').value;
+		var e4 = document.getElementById('estado4').value;
+		var t5 = document.getElementById('time5').value;
+		var e5 = document.getElementById('estado5').value;
+		var t6 = document.getElementById('time6').value;
+		var e6 = document.getElementById('estado6').value;
+    
+    var tt1 = document.getElementById('Rt1');
+    tt1.innerHTML = t1;
+    var tt2 = document.getElementById('Rt2');
+    tt2.innerHTML = t2;
+    var ee1 = document.getElementById('Re1');
+    ee1.innerHTML = e1;
+    
+    
+
+		var tt3 = document.getElementById('Rt3');
+    tt3.innerHTML = t3;
+    var tt4 = document.getElementById('Rt4');
+    tt4.innerHTML = t4;
+    var ee3 = document.getElementById('Re3');
+    ee3.innerHTML = e3;
+
+		var tt5 = document.getElementById('Rt5');
+    tt5.innerHTML = t5;
+    var tt6 = document.getElementById('Rt6');
+    tt6.innerHTML = t6;
+    var ee5 = document.getElementById('Re5');
+    ee5.innerHTML = e5;
+
+
+}
+
+
+// Exibe os conteúdos das  variáveisnas tabelas
+
+
+function comb2() {
+   
+    var t1 = document.getElementById('time1').value;
+    var e1 = document.getElementById('estado1').value;
+		var t2 = document.getElementById('time2').value;
+		var e2 = document.getElementById('estado2').value;
+		var t3 = document.getElementById('time3').value;
+		var e3 = document.getElementById('estado3').value;
+		var t4 = document.getElementById('time4').value;
+		var e4 = document.getElementById('estado4').value;
+		var t5 = document.getElementById('time5').value;
+		var e5 = document.getElementById('estado5').value;
+		var t6 = document.getElementById('time6').value;
+		var e6 = document.getElementById('estado6').value;
+    
+    var tt2 = document.getElementById('Rt22');
+    tt2.innerHTML = t2;
+    var tt4 = document.getElementById('Rt44');
+    tt4.innerHTML = t4;
+    var ee2 = document.getElementById('Re22');
+    ee2.innerHTML = e2;
+
+		var tt3 = document.getElementById('Rt33');
+    tt3.innerHTML = t3;
+    var tt6 = document.getElementById('Rt66');
+    tt6.innerHTML = t6;
+    var ee3 = document.getElementById('Re33');
+    ee3.innerHTML = e3;
+
+		var tt5 = document.getElementById('Rt55');
+    tt5.innerHTML = t5;
+    var tt1 = document.getElementById('Rt11');
+    tt1.innerHTML = t1;
+    var ee5 = document.getElementById('Re55');
+    ee5.innerHTML = e5;
+
+}
+
+
+
+function comb3() {
+   
+    var t1 = document.getElementById('time1').value;
+    var e1 = document.getElementById('estado1').value;
+		var t2 = document.getElementById('time2').value;
+		var e2 = document.getElementById('estado2').value;
+		var t3 = document.getElementById('time3').value;
+		var e3 = document.getElementById('estado3').value;
+		var t4 = document.getElementById('time4').value;
+		var e4 = document.getElementById('estado4').value;
+		var t5 = document.getElementById('time5').value;
+		var e5 = document.getElementById('estado5').value;
+		var t6 = document.getElementById('time6').value;
+		var e6 = document.getElementById('estado6').value;
+    
+    var tt2 = document.getElementById('Rt222');
+    tt2.innerHTML = t2;
+    var tt1 = document.getElementById('Rt111');
+    tt1.innerHTML = t1;
+    var ee2 = document.getElementById('Re222');
+    ee2.innerHTML = e2;
+
+		var tt4 = document.getElementById('Rt444');
+    tt4.innerHTML = t4;
+    var tt3 = document.getElementById('Rt333');
+    tt3.innerHTML = t3;
+    var ee4 = document.getElementById('Re444');
+    ee4.innerHTML = e4;
+
+		var tt6 = document.getElementById('Rt666');
+    tt6.innerHTML = t6;
+    var tt5 = document.getElementById('Rt555');
+    tt5.innerHTML = t5;
+    var ee6 = document.getElementById('Re666');
+    ee6.innerHTML = e6;
+
+
+}
+
+function comb4() {
+   
+    var t1 = document.getElementById('time1').value;
+    var e1 = document.getElementById('estado1').value;
+		var t2 = document.getElementById('time2').value;
+		var e2 = document.getElementById('estado2').value;
+		var t3 = document.getElementById('time3').value;
+		var e3 = document.getElementById('estado3').value;
+		var t4 = document.getElementById('time4').value;
+		var e4 = document.getElementById('estado4').value;
+		var t5 = document.getElementById('time5').value;
+		var e5 = document.getElementById('estado5').value;
+		var t6 = document.getElementById('time6').value;
+		var e6 = document.getElementById('estado6').value;
+    
+    var tt4 = document.getElementById('Rt4444');
+    tt4.innerHTML = t4;
+    var tt2 = document.getElementById('Rt2222');
+    tt2.innerHTML = t2;
+    var ee4 = document.getElementById('Re4444');
+    ee4.innerHTML = e4;
+
+		var tt6 = document.getElementById('Rt6666');
+    tt6.innerHTML = t6;
+    var tt3 = document.getElementById('Rt3333');
+    tt3.innerHTML = t3;
+    var ee6 = document.getElementById('Re6666');
+    ee6.innerHTML = e6;
+
+		var tt1 = document.getElementById('Rt1111');
+    tt1.innerHTML = t1;
+    var tt5 = document.getElementById('Rt5555');
+    tt5.innerHTML = t5;
+    var ee1 = document.getElementById('Re1111');
+    ee1.innerHTML = e1;
+
+}
+
+
+// Cria resultados aleatórios para os jogos
+
+
+function resul() {
+   
+    
+    var res11 = Math.floor(10* Math.random());    
+    var vres11 = res11;
+    document.getElementById('res11').innerHTML = res11;    
+    
+    var res21 = Math.floor(10* Math.random());    
+    var vres21 = res21;
+    document.getElementById('res21').innerHTML = res21;    
+    
+    
+    var res31 = Math.floor(10* Math.random());    
+    var vres31 = res31;
+    document.getElementById('res31').innerHTML = res31;    
+
+    
+		var res41 = Math.floor(10* Math.random());    
+    var vres41 = res41;
+    document.getElementById('res41').innerHTML = res41;    
+        
+    var res51 = Math.floor(10* Math.random());    
+    var vres51 = res51;
+    document.getElementById('res51').innerHTML = res51;    
+    
+		var res61 = Math.floor(10* Math.random());    
+    var vres61 = res61;
+    document.getElementById('res61').innerHTML = res61;    
+    
+    
+    
+   	var res12 = Math.floor(10* Math.random());    
+    var vres12 = res12;
+    document.getElementById('res12').innerHTML = res12;
+		
+    var res22 = Math.floor(10* Math.random());    
+    var vres22 = res22;
+    document.getElementById('res22').innerHTML = res22;
+		
+    var res32 = Math.floor(10* Math.random());    
+    var vres32 = res32;
+    document.getElementById('res32').innerHTML = res32;
+		
+    var res42 = Math.floor(10* Math.random());    
+    var vres42 = res42;
+    document.getElementById('res42').innerHTML = res42;
+		
+    var res52 = Math.floor(10* Math.random());    
+    var vres52 = res52;
+    document.getElementById('res52').innerHTML = res52;
+		
+    var res62 = Math.floor(10* Math.random());    
+    var vres62 = res62;
+    document.getElementById('res62').innerHTML = res62;
+
+    
+    var res13 = Math.floor(10* Math.random());    
+    var vres13 = res13;
+    document.getElementById('res13').innerHTML = res13;
+
+		var res23 = Math.floor(10* Math.random());    
+    var vres23 = res23;
+    document.getElementById('res23').innerHTML = res23;
+
+    var res33 = Math.floor(10* Math.random());    
+    var vres33 = res33;
+    document.getElementById('res33').innerHTML = res33;
+
+    var res43 = Math.floor(10* Math.random());    
+    var vres43 = res43;
+    document.getElementById('res43').innerHTML = res43;
+
+		var res53 = Math.floor(10* Math.random());    
+    var vres53 = res53;
+    document.getElementById('res53').innerHTML = res53;
+    
+    var res63 = Math.floor(10* Math.random());    
+    var vres63 = res63;
+    document.getElementById('res63').innerHTML = res63;
+
+
+
+
+
+    var res14 = Math.floor(10* Math.random());    
+    var vres14 = res14;
+    document.getElementById('res14').innerHTML = res14;
+
+		var res24 = Math.floor(10* Math.random());    
+    var vres24 = res24;
+    document.getElementById('res24').innerHTML = res24;
+    
+    var res34 = Math.floor(10* Math.random());    
+    var vres34 = res34;
+    document.getElementById('res34').innerHTML = res34;
+		
+    var res44 = Math.floor(10* Math.random());    
+    var vres44 = res44;
+    document.getElementById('res44').innerHTML = res44;
+		
+    var res54 = Math.floor(10* Math.random());    
+    var vres54 = res54;
+    document.getElementById('res54').innerHTML = res54;
+		
+    var res64 = Math.floor(10* Math.random());    
+    var vres64 = res64;
+    document.getElementById('res64').innerHTML = res64;
+
+
+
+// Adota as condições para pontuação : vitória = 3 pontos, empate = 1 ponto
+   
+   var part11 = vres11 - vres21;
+        
+if (part11 > 0) {
+    	var p11 = 3;
+      var p21 = 0;
+    } 
+    
+    	else if (part11 < 0) {
+    		var p11 = 0;
+      	var p21 = 3;
+    }
+      
+      else  {
+     		var p11 = 1;
+      	var p21 = 1;
+    }  
+ 
+ 		  document.getElementById('pt11').innerHTML = p11;  
+			document.getElementById('pt21').innerHTML = p21;  
+      
+      
+      
+      
+      var part31 = vres31 - vres41;
+        
+if (part31 > 0) {
+    	var p31 = 3;
+      var p41 = 0;
+    } 
+    
+    	else if (part31 < 0) {
+    		var p31 = 0;
+      	var p41 = 3;
+    }
+      
+      else  {
+     		var p31 = 1;
+      	var p41 = 1;
+    }  
+ 
+ 		  document.getElementById('pt31').innerHTML = p31;  
+			document.getElementById('pt41').innerHTML = p41;  
+
+
+var part51 = vres51 - vres61;
+        
+if (part51 > 0) {
+    	var p51 = 3;
+      var p61 = 0;
+    } 
+    
+    	else if (part51 < 0) {
+    		var p51 = 0;
+      	var p61 = 3;
+    }
+      
+      else  {
+     		var p51 = 1;
+      	var p61 = 1;
+    }  
+ 
+ 		  document.getElementById('pt51').innerHTML = p51;  
+			document.getElementById('pt61').innerHTML = p61;  
+
+
+
+
+
+
+var part22 = vres22 - vres42;
+        
+if (part22 > 0) {
+    	var p22 = 3;
+      var p42 = 0;
+    } 
+    
+    	else if (part22 < 0) {
+    		var p22 = 0;
+      	var p42 = 3;
+    }
+      
+      else  {
+     		var p22 = 1;
+      	var p42 = 1;
+    }  
+ 
+ 		  document.getElementById('pt22').innerHTML = p22;  
+			document.getElementById('pt42').innerHTML = p42;  
+      
+      
+      
+      
+      var part32 = vres32 - vres62;
+        
+if (part32 > 0) {
+    	var p32 = 3;
+      var p62 = 0;
+    } 
+    
+    	else if (part32 < 0) {
+    		var p32 = 0;
+      	var p62 = 3;
+    }
+      
+      else  {
+     		var p32 = 1;
+      	var p62 = 1;
+    }  
+ 
+ 		  document.getElementById('pt32').innerHTML = p32;  
+			document.getElementById('pt62').innerHTML = p62;  
+
+
+var part52 = vres52 - vres12;
+        
+if (part52 > 0) {
+    	var p52 = 3;
+      var p12 = 0;
+    } 
+    
+    	else if (part52 < 0) {
+    		var p52 = 0;
+      	var p12 = 3;
+    }
+      
+      else  {
+     		var p52 = 1;
+      	var p12 = 1;
+    }  
+ 
+ 		  document.getElementById('pt52').innerHTML = p52;  
+			document.getElementById('pt12').innerHTML = p12;  
+
+
+
+
+var part23 = vres23 - vres13;
+        
+if (part23 > 0) {
+    	var p23 = 3;
+      var p13 = 0;
+    } 
+    
+    	else if (part23 < 0) {
+    		var p23 = 0;
+      	var p13 = 3;
+    }
+      
+      else  {
+     		var p23 = 1;
+      	var p13 = 1;
+    }  
+ 
+ 		  document.getElementById('pt23').innerHTML = p23;  
+			document.getElementById('pt13').innerHTML = p13;  
+
+
+
+var part43 = vres43 - vres33;
+        
+if (part43 > 0) {
+    	var p43 = 3;
+      var p33 = 0;
+    } 
+    
+    	else if (part43 < 0) {
+    		var p43 = 0;
+      	var p33 = 3;
+    }
+      
+      else  {
+     		var p43 = 1;
+      	var p33 = 1;
+    }  
+ 
+ 		  document.getElementById('pt43').innerHTML = p43;  
+			document.getElementById('pt33').innerHTML = p33;  
+
+
+
+var part63 = vres63 - vres53;
+        
+if (part63 > 0) {
+    	var p63 = 3;
+      var p53 = 0;
+    } 
+    
+    	else if (part63 < 0) {
+    		var p63 = 0;
+      	var p53 = 3;
+    }
+      
+      else  {
+     		var p63 = 1;
+      	var p53 = 1;
+    }  
+ 
+ 		  document.getElementById('pt63').innerHTML = p63;  
+			document.getElementById('pt53').innerHTML = p53;  
+
+
+
+
+var part44 = vres44 - vres24;
+        
+if (part44 > 0) {
+    	var p44 = 3;
+      var p24 = 0;
+    } 
+    
+    	else if (part44 < 0) {
+    		var p44 = 0;
+      	var p24 = 3;
+    }
+      
+      else  {
+     		var p44 = 1;
+      	var p24 = 1;
+    }  
+ 
+ 		  document.getElementById('pt44').innerHTML = p44;  
+			document.getElementById('pt24').innerHTML = p24;  
+
+
+
+
+var part64 = vres64 - vres34;
+        
+if (part64 > 0) {
+    	var p64 = 3;
+      var p34 = 0;
+    } 
+    
+    	else if (part64 < 0) {
+    		var p64 = 0;
+      	var p34 = 3;
+    }
+      
+      else  {
+     		var p64 = 1;
+      	var p34 = 1;
+    }  
+ 
+ 		  document.getElementById('pt64').innerHTML = p64;  
+			document.getElementById('pt34').innerHTML = p34;  
+
+
+
+
+var part14 = vres14 - vres54;
+        
+if (part14 > 0) {
+    	var p14 = 3;
+      var p54 = 0;
+    } 
+    
+    	else if (part14 < 0) {
+    		var p14 = 0;
+      	var p54 = 3;
+    }
+      
+      else  {
+     		var p14 = 1;
+      	var p54 = 1;
+    }  
+ 
+ 		  document.getElementById('pt14').innerHTML = p14;  
+			document.getElementById('pt54').innerHTML = p54;  
+
+
+// Recria as variáveis dos estados
+
+
+ 		var t1 = document.getElementById('time1').value;
+    var t2 = document.getElementById('time2').value;
+		var t3 = document.getElementById('time3').value;
+		var t4 = document.getElementById('time4').value;
+		var t5 = document.getElementById('time5').value;
+		var t6 = document.getElementById('time6').value;
+		   
+
+// Cria as variáveis das pontuações totais
+
+
+var pon1 = p11 + p12 + p13 + p14;
+var pon2 = p21 + p22 + p23 + p24;
+var pon3 = p31 + p32 + p33 + p34;
+var pon4 = p41 + p42 + p43 + p44;
+var pon5 = p51 + p52 + p53 + p54;
+var pon6 = p61 + p62 + p63 + p64;
+
+
+document.getElementById('tab1').innerHTML = t1;  
+document.getElementById('tab2').innerHTML = t2;  
+document.getElementById('tab3').innerHTML = t3;  
+document.getElementById('tab4').innerHTML = t4;  
+document.getElementById('tab5').innerHTML = t5;  
+document.getElementById('tab6').innerHTML = t6;  
+
+document.getElementById('ptab1').innerHTML = pon1;  
+document.getElementById('ptab2').innerHTML = pon2;  
+document.getElementById('ptab3').innerHTML = pon3;  
+document.getElementById('ptab4').innerHTML = pon4;  
+document.getElementById('ptab5').innerHTML = pon5;  
+document.getElementById('ptab6').innerHTML = pon6;  
+
+
+
+}
+
+
+
+</script>
+
+
+
+
