@@ -1,11 +1,7 @@
-
-
-
-
 <!-- Entrada de nomes de times e seus estados. -->
 
 
-<p>Digite o nome do Time 1: Digite o Estado do Time 1:</p>
+<p>Digite o nome do Time 1: Digite o Estado do Time 1:</p>
 
 <form id="form1">
     <div>
@@ -15,7 +11,7 @@
     </div>
 </form>
 
-<p>Digite o nome do Time 2: Digite o Estado do Time 2:</p>
+<p>Digite o nome do Time 2: Digite o Estado do Time 2:</p>
 
 <form id="form2">
     <div>
@@ -25,7 +21,7 @@
     </div>
 </form>
 
-<p>Digite o nome do Time 3: Digite o Estado do Time 3:</p>
+<p>Digite o nome do Time 3: Digite o Estado do Time 3:</p>
 
 <form id="form3">
     <div>
@@ -36,7 +32,7 @@
 </form>
 
 
-<p>Digite o nome do Time 4: Digite o Estado do Time 4:</p>
+<p>Digite o nome do Time 4: Digite o Estado do Time 4:</p>
 
 <form id="form4">
     <div>
@@ -46,7 +42,7 @@
     </div>
 </form>
 
-<p>Digite o nome do Time 5: Digite o Estado do Time 5:</p>
+<p>Digite o nome do Time 5: Digite o Estado do Time 5:</p>
 
 <form id="form5">
     <div>
@@ -56,7 +52,7 @@
     </div>
 </form>
 
-<p>Digite o nome do Time 6: Digite o Estado do Time 6:</p>
+<p>Digite o nome do Time 6: Digite o Estado do Time 6:</p>
 
 <form id="form6">
     <div>
@@ -586,6 +582,18 @@
      <td><span id="ptab6"></span></td>
                                       
     </tr>
+    
+    <tr>
+     
+     <td><strong> <span> Pontuação do Campeão </span> </strong></td>
+     <td><strong> <span id="pcampeao"></span> </strong></td>
+                                      
+    </tr>
+    
+    
+    
+    
+    
     
     
 </table>     
@@ -1171,7 +1179,12 @@ var pon4 = p41 + p42 + p43 + p44;
 var pon5 = p51 + p52 + p53 + p54;
 var pon6 = p61 + p62 + p63 + p64;
 
+// Define variável para o maior valor de pontuação
 
+var pcamp = Math.max(pon1, pon2, pon3, pon4, pon5, pon6);
+
+ 
+ 		  
 document.getElementById('tab1').innerHTML = t1;  
 document.getElementById('tab2').innerHTML = t2;  
 document.getElementById('tab3').innerHTML = t3;  
@@ -1179,12 +1192,20 @@ document.getElementById('tab4').innerHTML = t4;
 document.getElementById('tab5').innerHTML = t5;  
 document.getElementById('tab6').innerHTML = t6;  
 
+
+
+
 document.getElementById('ptab1').innerHTML = pon1;  
 document.getElementById('ptab2').innerHTML = pon2;  
 document.getElementById('ptab3').innerHTML = pon3;  
 document.getElementById('ptab4').innerHTML = pon4;  
 document.getElementById('ptab5').innerHTML = pon5;  
 document.getElementById('ptab6').innerHTML = pon6;  
+document.getElementById('pcampeao').innerHTML = pcamp;  
+
+ 
+
+
 
 
 
@@ -1193,7 +1214,3 @@ document.getElementById('ptab6').innerHTML = pon6;
 
 
 </script>
-
-
-
-
